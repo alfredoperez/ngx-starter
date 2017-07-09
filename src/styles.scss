@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+//@import '../node_modules/roboto-fontface/css/roboto/roboto-fontface.css';
+//@import '../node_modules/material-design-icons/iconfont/material-icons.css';
+$text: #FFFFFF;
+$background: #212121;
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background: $background;
+  color: $text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p {
+  color: $text !important;
+}
+
+.grid-image {
+  background: no-repeat rgba(0, 0, 0, 0);
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: auto;
+}
+
+.gutter {
+  figure.mat-figure {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.mat-grid-tile .mat-figure {
+  display: block !important;
+}
